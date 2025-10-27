@@ -94,7 +94,7 @@ Abra o QR Code no app **Expo Go** (Android ou iOS) e teste localmente.
 > **Alcateia Tecnologia** — onde líderes caçam juntos 🐺  
 > Empresa maringaense focada em soluções digitais acessíveis, com propósito social e impacto positivo na vida das pessoas.
 
-📧 kauan.hb2004@gmail.com
+📧 corporativo.alcateia@outlook.com
 🌐 [github.com/Alcateia-Tecnologia](https://github.com/Alcateia-Tecnologia)
 
 ---
