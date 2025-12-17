@@ -1,7 +1,19 @@
 import { View, StyleSheet, Image } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
+import { useEffect } from "react";
+import { useNavigation } from "@react-navigation/native";
 
-export default function HomeScreen() {
+export default function SplashScreen() {
+  const navigation = useNavigation<any>();
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      navigation.replace("Feed");
+    }, 1500);
+
+    return () => clearTimeout(timer);
+  }, [navigation]);
+
   return (
     <View style={styles.container}>
       <LinearGradient
@@ -11,7 +23,7 @@ export default function HomeScreen() {
         style={styles.gradient}
       >
         <Image
-          source={require("../assets/images/logo.png")}
+          source={require("@/assets/images/logo.png")}
           style={styles.logo}
         />
       </LinearGradient>
