@@ -12,6 +12,7 @@ export default function AppNavigator() {
       <Stack.Navigator initialRouteName="Splash" screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Splash" component={SplashScreen} />
         <Stack.Screen name="Feed" component={FeedScreen} />
+        
       </Stack.Navigator>
     </NavigationContainer>
   );

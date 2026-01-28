@@ -9,7 +9,7 @@ export default function SplashScreen() {
   useEffect(() => {
     const timer = setTimeout(() => {
       navigation.replace("Feed");
-    }, 1500);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, [navigation]);
